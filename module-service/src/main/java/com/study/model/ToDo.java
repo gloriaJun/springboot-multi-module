@@ -13,6 +13,11 @@ public class ToDo {
     private boolean completed;
 
     public ToDo() {}
+    public ToDo(long id, String text, boolean completed) {
+        this.id = id;
+        this.text = text;
+        this.completed = completed;
+    }
     public ToDo(String text, boolean completed) {
         this.text = text;
         this.completed = completed;
