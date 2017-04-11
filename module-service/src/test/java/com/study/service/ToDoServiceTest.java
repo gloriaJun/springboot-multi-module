@@ -66,8 +66,4 @@ public class ToDoServiceTest {
         toDoService.deleteToDo(toDo.getId());
         verify(toDoRepository, times(1)).delete(toDo.getId());
     }
-
-//    public ToDo getById(long id);
-//    public ToDo saveToDO(ToDo todo);
-//    public void deleteToDo(long id);
 }
